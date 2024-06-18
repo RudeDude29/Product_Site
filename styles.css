@@ -1,0 +1,68 @@
+main{
+    padding: 24px;
+    background-color: grey;
+    min-height: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+/* div{
+    border: 2px solid black;
+    width: 400px;
+} */
+
+main>div{
+    width: 300px;
+    padding: 16px;
+    background-color: azure;
+    margin: 12px auto;
+    border-radius: 10px;
+
+}
+
+main>div:hover{
+    box-shadow: 4px 4px 12px;
+    cursor: pointer;
+}
+
+img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+body{
+    background-color: #212121;
+    
+}
+
+footer{
+    padding: 25px;
+    margin: 5px auto;
+    color: white;
+}
+
+footer>a{
+    margin: 10px auto;
+    color: white;
+    
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav>h2{
+    margin: 5px;
+    color: azure;
+}
+
+input{
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
